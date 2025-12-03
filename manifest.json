@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Smart Typography",
+  "version": "1.0.0",
+  "description": "Automatically inserts smart quotes, nested quotes, apostrophes, and includes a toggle button.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_action": {
+    "default_title": "Smart Typography",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d27bb1ab-69bf-4c2d-8703-6d2af69f97c4}",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
+    }
+  },
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

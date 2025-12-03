@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Smart Typography</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <main class="popup">
+            <header>
+                <div>
+                    <p class="eyebrow">Smart Typography</p>
+                    <h1>Type with perfect punctuation</h1>
+                    <p class="subhead">
+                        Enable curly quotes, arrows, em dashes, fractions, and
+                        more.
+                    </p>
+                </div>
+            </header>
+
+            <section class="panel">
+                <div class="panel-header">
+                    <div>
+                        <p class="label">Current site</p>
+                        <p id="site-label" class="value">Loading…</p>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="site-toggle" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p class="panel-help">
+                    Turn Smart Typography on or off just for this page.
+                </p>
+            </section>
+
+            <section class="panel">
+                <div class="panel-header">
+                    <div>
+                        <p class="label">Global status</p>
+                        <p id="global-label" class="value">Enabled</p>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="global-toggle" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p class="panel-help">
+                    When off, Smart Typography pauses everywhere until
+                    re-enabled.
+                </p>
+            </section>
+
+            <section class="panel small">
+                <p>
+                    Tip: prepend a backslash before a quote to insert the
+                    straight version (example: <code>\'</code>).
+                </p>
+            </section>
+        </main>
+        <script src="popup.js"></script>
+    </body>
+</html>
