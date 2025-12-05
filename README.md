@@ -44,7 +44,6 @@ The content script watches for `number/number` patterns immediately before the c
 - **Global switch** toggles Smart Typography everywhere and updates the badge/label immediately.
 - **Site switch** overrides just the active origin (handy for CMS editors or online IDEs).
 - Status text shows whether the current site is on, forced on, or disabled.
-- Use `\` followed by a quote when you need the raw `'` or `"` character—the extension deletes the backslash and lets the next quote through unchanged.
 
 ## License
 
