@@ -36,9 +36,7 @@ The content script watches for `number/number` patterns immediately before the c
 ## Usage
 
 ### Installation
-1. Download the latest signed `.xpi` from the [Releases](https://github.com/aloglu/smart-typography/releases) page or by clicking [here](https://github.com/aloglu/smart-typography/releases/latest/download/smart.typography.xpi).
-2. In Firefox, open `about:addons`, click the gear icon, and choose **Install Add-on From File…**.
-3. Select the downloaded package to complete the install (Firefox treats it like any other signed extension, so it will show up under Extensions and auto-update when you grab a new release).
+You can install it like a regular Firefox extension by clicking [here](https://github.com/aloglu/smart-typography/releases/latest/download/Smart.Typography.xpi). The file is signed by Mozilla and should work in any modern version of Firefox without additional effort.
 
 ### Popup controls
 - **Global switch** toggles Smart Typography everywhere and updates the badge/label immediately.
@@ -48,7 +46,3 @@ The content script watches for `number/number` patterns immediately before the c
 ## License
 
 Released under the [MIT License](https://github.com/aloglu/smart-typography/blob/main/LICENSE).
-
-## Acknowledgement
-
-This extension’s icon was created by [Xinh Studio](https://www.flaticon.com/authors/xinh-studio/flat?author_id=1323&type=standard).

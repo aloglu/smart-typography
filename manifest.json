@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Smart Typography",
-  "version": "1.0.0",
+  "version": "0.1.5",
   "description": "Automatically inserts smart quotes, nested quotes, apostrophes, and includes a toggle button.",
   "icons": {
     "32": "icons/icon-32.png",
@@ -17,7 +17,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{d27bb1ab-69bf-4c2d-8703-6d2af69f97c4}",
+      "id": "st-extension@aloglu.github.io",
       "data_collection_permissions": {
         "required": ["none"],
         "optional": []
